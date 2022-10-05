@@ -1,0 +1,77 @@
+#background {
+    height: 725px;
+}
+
+body {
+    background-color: #c0d6df;
+    color:#c0d6df; 
+}
+header {
+    background-color:#eaeaea;
+    color:#eaeaea;
+}
+nav a {
+    background-color: #49646f;
+    color:#49646f;
+    text-decoration: none;
+}
+.book, .join {
+    background-color: #eaeaea; 
+    color:#eaeaea;
+    text-decoration: none;
+}
+.book:hover, .join:hover {
+    background-color:#49646f;
+    color:#49646f;
+}
+nav a:hover {
+    background-color: #e8dab2;
+    color:#e8dab2;
+}
+.msg {
+    background-color: #e07a52; 
+    color:#e07a52;
+}
+footer {
+    background-color:#49646f;
+    color:#49646f;
+}
+.home-tittle {
+    background-color:#49646f;
+    color:#49646f;
+}
+h4 {
+    background-color: #e8dab2;
+    color:#e8dab2;
+}
+.msg h2 {
+    background-color: #e07a52; 
+    color:#e07a52;
+}
+.msg p {
+    background-color:#49646f;
+    color:#49646f;
+}
+footer h3 {
+    background-color:#49646f;
+    color:#49646f;
+}
+footer a {
+    background-color: #e8dab2;
+    color:#e8dab2;
+    text-decoration: none;
+}
+footer a:hover {
+    background-color: #e07a52; 
+    color:#e07a52;
+}
+.icon {
+    width: 80px;
+}
+ 
+footer p {
+    font-size: 1.2em;
+}    
+footer p a:hover {
+    text-decoration: underline;
+}  
