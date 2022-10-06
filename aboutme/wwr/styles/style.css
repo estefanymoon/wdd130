@@ -1,77 +1,104 @@
+
+
 #background {
-    height: 725px;
+    height: 750px;
 }
 
 body {
     background-color: #c0d6df;
-    color:#c0d6df; 
+    color:#49646f; 
 }
 header {
     background-color:#eaeaea;
-    color:#eaeaea;
+    color:#49646f;
+    height: 100%;
 }
 nav a {
     background-color: #49646f;
-    color:#49646f;
+    color:#eaeaea;
     text-decoration: none;
+    text-align: center;
+}
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+.button-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
 }
 .book, .join {
     background-color: #eaeaea; 
-    color:#eaeaea;
+    color:#49646f;
     text-decoration: none;
+    text-align: center;
 }
 .book:hover, .join:hover {
     background-color:#49646f;
-    color:#49646f;
+    color:#eaeaea;
+}
+nav a {
+    background-color: #e8dab2;
+    color: #49646f;
+    text-decoration: none;
 }
 nav a:hover {
     background-color: #e8dab2;
-    color:#e8dab2;
-}
-.msg {
-    background-color: #e07a52; 
-    color:#e07a52;
-}
-footer {
-    background-color:#49646f;
     color:#49646f;
-}
-.home-tittle {
-    background-color:#49646f;
-    color:#49646f;
-}
-h4 {
-    background-color: #e8dab2;
-    color:#e8dab2;
+    text-align: center;
 }
 .msg h2 {
     background-color: #e07a52; 
-    color:#e07a52;
+    color:#eaeaea;
+}
+.msg p {
+    background-color: #e8dab2;
+    color: #49646f;
+}
+footer {
+    background-color:#49646f;
+    color:#eaeaea;
+}
+.home-tittle {
+    background-color:#49646f;
+    color:#eaeaea;
+}
+h4 {
+    background-color: #e8dab2;
+    color:#49646f;
+}
+.msg h2 {
+    background-color: #e07a52; 
+    color:#eaeaea;
 }
 .msg p {
     background-color:#49646f;
-    color:#49646f;
+    color:#eaeaea;
 }
 footer h3 {
     background-color:#49646f;
-    color:#49646f;
+    color:#eaeaea;
 }
 footer a {
     background-color: #e8dab2;
-    color:#e8dab2;
+    color:#49646f;
     text-decoration: none;
 }
 footer a:hover {
     background-color: #e07a52; 
-    color:#e07a52;
+    color:#eaeaea;
+}
+footer p {
+font-size: 1.2em;
+}
+footer p a:hover {
+    text-decoration: underline;
 }
 .icon {
     width: 80px;
 }
- 
-footer p {
-    font-size: 1.2em;
-}    
+     
 footer p a:hover {
     text-decoration: underline;
 }  
