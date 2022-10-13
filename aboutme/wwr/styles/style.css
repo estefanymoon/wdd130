@@ -1,12 +1,23 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Fuzzy+Bubbles&family=Roboto:wght@300&display=swap');
 
 #background {
     height: 750px;
+    background-color: #e8dab2;
 }
-
+#logo_link {
+    padding-top: 5px;
+}
 body {
     background-color: #c0d6df;
     color:#49646f; 
+    font-family: Courgete, Roboto, Arial;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 header {
     background-color:#eaeaea;
@@ -18,6 +29,7 @@ nav a {
     color:#eaeaea;
     text-decoration: none;
     text-align: center;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -33,6 +45,11 @@ main section {
     color:#49646f;
     text-decoration: none;
     text-align: center;
+    font-family: Courgete, Roboto, Arial;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color:#49646f;
@@ -55,25 +72,34 @@ nav a:hover {
 .msg p {
     background-color: #e8dab2;
     color: #49646f;
+    font-family: Courgete, Roboto, Arial;
+    font-size: 1em;
+    padding-bottom: 15px;
 }
 footer {
     background-color:#49646f;
     color:#eaeaea;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-tittle {
     background-color:#49646f;
     color:#eaeaea;
+    font-family: Fuzzy Bubbles, Courgette, Roboto;
+    font-size: 2em;
+    margin-top: 10px;
 }
+.msg {
+    background-color: #6f7364;
+    line-height: 1.5em;
+    padding: 35px;
+  }
 h4 {
     background-color: #e8dab2;
     color:#49646f;
 }
 .msg h2 {
     background-color: #e07a52; 
-    color:#eaeaea;
-}
-.msg p {
-    background-color:#49646f;
     color:#eaeaea;
 }
 footer h3 {
@@ -95,10 +121,35 @@ font-size: 1.2em;
 footer p a:hover {
     text-decoration: underline;
 }
+#hero-img {
+    width: 100%;
+}
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
      
 footer p a:hover {
     text-decoration: underline;
 }  
+footer {
+    padding-top: 15px;
+}
+.social img {
+    padding-top: 15px;
+}
+.rivers-card {
+    margin: 200px o;
+}
+.camping-card {
+    margin: 200px 0;
+}
+.rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #e07a52;
+}
+main section img {
+    box-sizing: border-box;
+}
