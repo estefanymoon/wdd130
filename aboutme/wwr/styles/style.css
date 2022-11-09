@@ -31,9 +31,11 @@ header {
 }
 #logo_link {
     padding-top: 5px;
-    justify-self: auto;
-    align-self: auto;
-    width: 100px;
+    justify-self: center;
+    align-self: center;
+}
+.logo {
+    max-width: 100px;
     height: 100px;
 }
 nav a {
